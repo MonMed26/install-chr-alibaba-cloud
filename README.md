@@ -1,7 +1,7 @@
-# Install MikroTik CHR on Oracle Always Free Tier
+# Install MikroTik CHR on Alibaba Cloud
 
 > **Note**  
-> Custom images are not available for Oracle Always Free tier after the trial period expires.  
+> Custom images are not available for Alibaba Cloud after the trial period expires.  
 > The workaround is to install the MikroTik image from inside the VM.
 
 ## Steps
