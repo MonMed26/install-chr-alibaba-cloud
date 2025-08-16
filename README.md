@@ -34,7 +34,7 @@ Execute the following commands inside the VM:
 ```bash
 sudo -i
 yum install unzip
-umount -l /dev/sda1
-curl -L https://download.mikrotik.com/routeros/7.9/chr-7.9.img.zip | funzip | dd of=/dev/sda bs=1M
+umount -l /dev/vda1
+curl -L https://download.mikrotik.com/routeros/7.9/chr-7.9.img.zip | funzip | dd of=/dev/vda bs=1M
 sync
 reboot
